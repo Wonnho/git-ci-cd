@@ -1,0 +1,10 @@
+name:hello
+on:push
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+     - run:  echo "Hi, get started with github CI/CD"
+     - uses:  actions/checkout@v4
+
+
